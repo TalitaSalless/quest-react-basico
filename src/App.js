@@ -1,12 +1,12 @@
 import "./App.css";
-import TransformerText from "./components/transformerText/text";
-import Button from "./components/button/button";
+import StyledText from "./components/StyledText/index";
+import AlertButton from "./components/AlertButton/index";
 
 function App() {
    return (
       <>
-         <TransformerText color="blue" />
-         <Button label="Baixar CV" />
+         <StyledText color="blue" />
+         <AlertButton label="Baixar CV" />
       </>
    );
 }

@@ -1,4 +1,4 @@
-const Button = ( props ) => {
+const AlertButton = (props) => {
    return (
       <button onClick={() => alert("A label desse botão é Baixar CV")}>
          {props.label}
@@ -6,7 +6,8 @@ const Button = ( props ) => {
    );
 };
 
-Button.defaultProps = {
+AlertButton.defaultProps = {
    label: "clique aqui",
 };
-export default Button;
+
+export default AlertButton;
