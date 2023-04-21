@@ -1,4 +1,4 @@
-import "index.css";
+import '../StyledText/index.css';
 
 const StyledText = ({ color }) => {
    return (
